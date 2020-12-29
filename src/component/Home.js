@@ -1,5 +1,4 @@
 import React from 'react'
-import cover from "../cover.png"
 import {Button} from "reacthalfmoon"
 import "./home.css"
 
