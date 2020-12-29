@@ -4,7 +4,6 @@ import Home from "./component/Home";
 import About from "./component/About";
 import Products from "./component/Products";
 import Items from "./component/Items";
-import logo from "./logo.png";
 import Navbar from "./component/Navbar";
 
 function RouteConfig() {
