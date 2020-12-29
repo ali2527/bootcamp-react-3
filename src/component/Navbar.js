@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, NavbarContent,NavbarBrand ,NavItem , NavbarText,NavbarNav,Img,PageWrapper,ContentWrapper,Button,toggleDarkmode} from "reacthalfmoon";
+import {Navbar, NavbarContent,NavbarBrand ,NavItem ,NavbarNav,Img,PageWrapper,Button,toggleDarkmode} from "reacthalfmoon";
 import {Link} from "react-router-dom";
 import logo from "../logo.png"
 
@@ -16,7 +16,7 @@ function Navbarhead() {
                           <NavbarNav>
                           <Link to="/"><NavItem>Home</NavItem></Link>
                             <Link to="/About"><NavItem>About</NavItem></Link>
-                            <Link to="/Products"><NavItem>Products</NavItem></Link>
+                            <Link to="/Products"><NavItem>TIMEPIECES</NavItem></Link>
                             <Link to="/Items"> <NavItem>Items </NavItem></Link>
                         </NavbarNav>
                         
