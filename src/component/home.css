@@ -1,0 +1,10 @@
+.hero{
+    height: 800px;
+    background: url(../cover.webp);
+    background-size: cover;
+    padding-top:400px;
+}
+.herobtn{
+    background: transparent!important;
+    border: 2px solid white;
+}

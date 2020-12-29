@@ -13,11 +13,10 @@ function Navbarhead() {
                             <Img src={logo} alt="brand" />
                             <span className="font-weight-bolder">TAG</span>Heuer
                         </NavbarBrand>
-                          <NavbarNav>
-                          <Link to="/"><NavItem>Home</NavItem></Link>
-                            <Link to="/About"><NavItem>About</NavItem></Link>
+                          <NavbarNav className="ml-auto">
+                          <Link to="/"><NavItem>HOME</NavItem></Link>
+                            <Link to="/About"><NavItem>ABOUT</NavItem></Link>
                             <Link to="/Products"><NavItem>TIMEPIECES</NavItem></Link>
-                            <Link to="/Items"> <NavItem>Items </NavItem></Link>
                         </NavbarNav>
                         
                     </NavbarContent>

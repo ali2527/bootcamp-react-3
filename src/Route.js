@@ -13,16 +13,10 @@ function RouteConfig() {
         <Navbar />
         <br/><br/>
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/About">
-            <About />
-          </Route>
-          <Route path="/Products">
-            <Products />
-          </Route>
-          <Route path="/Items">
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/About" component={About}/>
+          <Route exact path="/Products" component={Products}/>
+          <Route exact path="/Products/:id" >
             <Items />
           </Route>
         </Switch>
